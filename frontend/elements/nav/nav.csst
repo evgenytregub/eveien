@@ -1,0 +1,45 @@
+.nav {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.nav > ul > li {
+    display: flex;
+    justify-content: space-around;
+    padding: 14px 16px;
+}
+@media only screen and (max-width: {{ 'mediaSmall' }}px) {
+    .nav > ul {
+        display: flex;
+        justify-content: {{ 'mediaSmallJustifyContent' }};
+    }
+}
+@media only screen and (min-width: {{ 'mediaSmall' }}px) {
+    .nav > ul {
+        display: flex;
+        justify-content: {{ 'mediaSmallJustifyContent' }};
+    }
+}
+@media only screen and (min-width: {{ 'mediaMedium' }}px) {
+    .nav > ul {
+        display: flex;
+        justify-content: {{ 'mediaMediumJustifyContent' }};
+    }
+}
+@media only screen and (min-width: {{ 'mediaLarge' }}px) {
+    .nav > ul {
+        display: flex;
+        justify-content: {{ 'mediaLargeJustifyContent' }};
+    }
+}
+@media only screen and (min-width: {{ 'mediaExtraLarge' }}px) {
+    .nav > ul {
+        display: flex;
+        justify-content: {{ 'mediaExtraLargeJustifyContent' }};
+    }
+}
+
+ {{ 'hoverLine_css' }}
+
+
+

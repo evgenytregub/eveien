@@ -1,0 +1,1092 @@
+.header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+.header__img {
+    max-height: 100px;
+}
+.header__col6__background {
+    background-color: #ffffff;
+}
+@media only screen and (max-width: 576px) {
+    .header__col6 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .header__col6_logo {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 576px) {
+    .header__col6 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .header__col6_logo {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .header__col6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .header__col6_logo {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .header__col6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .header__col6_logo {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .header__col6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .header__col6_logo {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+.nav {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.nav > ul > li {
+    display: flex;
+    justify-content: space-around;
+    padding: 14px 16px;
+}
+@media only screen and (max-width: 576px) {
+    .nav > ul {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 576px) {
+    .nav > ul {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .nav > ul {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .nav > ul {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .nav > ul {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+ .hoverLine:hover, .hoverLine > li > a:hover, .hoverLine:focus {
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 4px 0px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 4px 0px 0px rgba(0, 0, 0, 1);
+	transition: 1s;
+}
+.hoverLine__nav > li > a:hover, .hoverLine__nav > li > a:focus {
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 4px 0px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 4px 0px 0px rgba(0, 0, 0, 1);
+	transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+.signin {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: 15%;
+    height: 100%;
+}
+.signin > div {
+     margin-top: 100px;
+}
+.signin_col > div {
+    width: 80%;
+    margin-left: 10%;
+}
+.signin_border {
+	-webkit-box-shadow: 3px 0px 0px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    3px 0px 0px 0px rgba(0, 0, 0, 1);
+	box-shadow:         3px 0px 0px 0px rgba(0, 0, 0, 1);
+}
+.signin_header {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.signin_header > h1, .signin_header > p {
+    display: flex;
+    justify-content: center;
+}
+ @media only screen and (max-width: 576px) {
+     .signin_col {
+         -ms-flex: 0 0 100%;
+         flex: 0 0 100%;
+         max-width: 100%;
+     }
+ }
+ @media only screen and (min-width: 576px) {
+     .signin_col {
+         -ms-flex: 0 0 100%;
+         flex: 0 0 100%;
+         max-width: 100%;
+     }
+ }
+ @media only screen and (min-width: 768px) {
+     .signin_col {
+         -ms-flex: 0 0 50%;
+         flex: 0 0 50%;
+         max-width: 50%;
+     }
+ }
+ @media only screen and (min-width: 992px) {
+     .signin_col {
+         -ms-flex: 0 0 50%;
+         flex: 0 0 50%;
+         max-width: 50%;
+     }
+ }
+ @media only screen and (min-width: 1200px) {
+     .signin_col {
+         -ms-flex: 0 0 50%;
+         flex: 0 0 50%;
+         max-width: 50%;
+     }
+ }
+.inputTxt:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.inputTxt input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+.inputTxt label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+.inputTxt_colInput > span {
+    color: red;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 576px) {
+    .inputTxt_colLabel, .inputTxt_colInput, .inputTxtinput[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+@media only screen and (min-width: 576px) {
+    .inputTxt_colLabel, .inputTxt_colInput, .inputTxtinput[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .inputTxt_colLabel, .inputTxt_colInput, .inputTxtinput[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .inputTxt_colLabel {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+    }
+    .inputTxt_colInput {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .inputTxt_colLabel {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+    }
+    .inputTxt_colInput {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+    }
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
+.button > button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    padding: 15px 32px;
+    margin-top: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+}
+.button > button:hover {
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24),0 6px 20px 0 rgba(0,0,0,0.19);
+}.footer {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: calc((100% - 80%)/2);
+    height: 100%;
+ }
+.footer > div > div {
+    width: 80%;
+    margin-left: 10%;
+}
+.footer > div > div > ul > li {
+    margin-top: 5px;
+}
+  @media only screen and (max-width: 576px) {
+      .footer > div {
+          -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+          max-width: 50%;
+      }
+  }
+  @media only screen and (min-width: 576px) {
+      .footer > div {
+          -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+          max-width: 50%;
+      }
+  }
+  @media only screen and (min-width: 768px) {
+      .footer > div {
+          -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+          max-width: 25%;
+      }
+  }
+  @media only screen and (min-width: 992px) {
+      .footer > div {
+          -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+          max-width: 25;
+      }
+  }
+  @media only screen and (min-width: 1200px) {
+      .footer > div {
+          -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+          max-width: 25%;
+      }
+  }
+
+   .hoverLine:hover, .hoverLine > li > a:hover, .hoverLine:focus {
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 4px 0px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 4px 0px 0px rgba(0, 0, 0, 1);
+	transition: 1s;
+}
+.hoverLine__nav > li > a:hover, .hoverLine__nav > li > a:focus {
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 4px 0px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 4px 0px 0px rgba(0, 0, 0, 1);
+	transition: 1s;
+}
+
+
+
+
+.header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+.header__img {
+    max-height: 100px;
+}
+.header__col6__background {
+    background-color: #ffffff;
+}
+@media only screen and (max-width: 576px) {
+    .header__col6 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .header__col6_logo {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 576px) {
+    .header__col6 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .header__col6_logo {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .header__col6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .header__col6_logo {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .header__col6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .header__col6_logo {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .header__col6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .header__col6_logo {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+.nav {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.nav > ul > li {
+    display: flex;
+    justify-content: space-around;
+    padding: 14px 16px;
+}
+@media only screen and (max-width: 576px) {
+    .nav > ul {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 576px) {
+    .nav > ul {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .nav > ul {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .nav > ul {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .nav > ul {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+ .hoverLine:hover, .hoverLine > li > a:hover, .hoverLine:focus {
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 4px 0px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 4px 0px 0px rgba(0, 0, 0, 1);
+	transition: 1s;
+}
+.hoverLine__nav > li > a:hover, .hoverLine__nav > li > a:focus {
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 4px 0px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 4px 0px 0px rgba(0, 0, 0, 1);
+	transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+.gallery {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: calc((100% - 80%)/2);
+    height: 100%;
+ }
+ .gallery > div, .gallery__col11, gallery__col1, .gallery__Inner > a {
+     margin-top: 100px;
+ }
+ .gallery__Inner > a {
+   display: flex;
+   flex-direction: column;
+   width: 250px;
+ }
+ .gallery__Inner {
+ 	width: 80%;
+ 	margin-left: 10%;
+ }
+.gallery__col11 {
+    display: flex;
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+}
+.gallery__col1 {
+   display: flex;
+   flex-direction: column;
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+}
+.gallery__vert {
+    margin-top: 100px;
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Safari */
+    transform: rotate(-90deg); /* Standard syntax */
+}
+ @media only screen and (max-width: 576px) {
+     .gallery__col6 {
+         -ms-flex: 0 0 100%;
+         flex: 0 0 100%;
+         max-width: 100%;
+     }
+ }
+ @media only screen and (min-width: 576px) {
+     .gallery__col6 {
+         -ms-flex: 0 0 100%;
+         flex: 0 0 100%;
+         max-width: 100%;
+     }
+ }
+ @media only screen and (min-width: 768px) {
+     .gallery__col6 {
+         -ms-flex: 0 0 50%;
+         flex: 0 0 50%;
+         max-width: 50%;
+     }
+ }
+ @media only screen and (min-width: 992px) {
+     .gallery__col6 {
+         -ms-flex: 0 0 50%;
+         flex: 0 0 50%;
+         max-width: 50%;
+     }
+ }
+ @media only screen and (min-width: 1200px) {
+     .gallery__col6 {
+         -ms-flex: 0 0 50%;
+         flex: 0 0 50%;
+         max-width: 50%;
+     }
+ }
+
+ .slideshow {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.slideshowItem {display: none}
+.slideshowFade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes slideshowFade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes slideshowFade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.slideshowNumberText {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.slideshowText {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.slideshowPrev, .slideshowNext {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  background-color: rgba(255,255,255,1);
+}
+.slideshowPrev:hover, .slideshowNext:hover {
+  background-color: rgba(0,0,0,1);
+    color: #ffffff;
+}
+.slideshowNext {
+  left: 41px;
+}
+.slideshowDotPosition {
+  position: absolute;
+  bottom: 0px;
+  left: 29%;
+}
+.slideshowDot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.slideshowActive, .slideshowDot:hover {
+  background-color: #717171;
+}
+ .hoverLine:hover, .hoverLine > li > a:hover, .hoverLine:focus {
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 4px 0px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 4px 0px 0px rgba(0, 0, 0, 1);
+	transition: 1s;
+}
+.hoverLine__nav > li > a:hover, .hoverLine__nav > li > a:focus {
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 4px 0px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 4px 0px 0px rgba(0, 0, 0, 1);
+	transition: 1s;
+}
+
+
+
+
+.footer {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: calc((100% - 80%)/2);
+    height: 100%;
+ }
+.footer > div > div {
+    width: 80%;
+    margin-left: 10%;
+}
+.footer > div > div > ul > li {
+    margin-top: 5px;
+}
+  @media only screen and (max-width: 576px) {
+      .footer > div {
+          -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+          max-width: 50%;
+      }
+  }
+  @media only screen and (min-width: 576px) {
+      .footer > div {
+          -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+          max-width: 50%;
+      }
+  }
+  @media only screen and (min-width: 768px) {
+      .footer > div {
+          -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+          max-width: 25%;
+      }
+  }
+  @media only screen and (min-width: 992px) {
+      .footer > div {
+          -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+          max-width: 25;
+      }
+  }
+  @media only screen and (min-width: 1200px) {
+      .footer > div {
+          -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+          max-width: 25%;
+      }
+  }
+
+   .hoverLine:hover, .hoverLine > li > a:hover, .hoverLine:focus {
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 4px 0px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 4px 0px 0px rgba(0, 0, 0, 1);
+	transition: 1s;
+}
+.hoverLine__nav > li > a:hover, .hoverLine__nav > li > a:focus {
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 4px 0px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 4px 0px 0px rgba(0, 0, 0, 1);
+	transition: 1s;
+}
+
+
+
+
+.header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+.header__img {
+    max-height: 100px;
+}
+.header__col6__background {
+    background-color: #ffffff;
+}
+@media only screen and (max-width: 576px) {
+    .header__col6 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .header__col6_logo {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 576px) {
+    .header__col6 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .header__col6_logo {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .header__col6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .header__col6_logo {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .header__col6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .header__col6_logo {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .header__col6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .header__col6_logo {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+.nav {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.nav > ul > li {
+    display: flex;
+    justify-content: space-around;
+    padding: 14px 16px;
+}
+@media only screen and (max-width: 576px) {
+    .nav > ul {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 576px) {
+    .nav > ul {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .nav > ul {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .nav > ul {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .nav > ul {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+ .hoverLine:hover, .hoverLine > li > a:hover, .hoverLine:focus {
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 4px 0px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 4px 0px 0px rgba(0, 0, 0, 1);
+	transition: 1s;
+}
+.hoverLine__nav > li > a:hover, .hoverLine__nav > li > a:focus {
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 4px 0px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 4px 0px 0px rgba(0, 0, 0, 1);
+	transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+.signin {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: 15%;
+    height: 100%;
+}
+.signin > div {
+     margin-top: 100px;
+}
+.signin_col > div {
+    width: 80%;
+    margin-left: 10%;
+}
+.signin_border {
+	-webkit-box-shadow: 3px 0px 0px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    3px 0px 0px 0px rgba(0, 0, 0, 1);
+	box-shadow:         3px 0px 0px 0px rgba(0, 0, 0, 1);
+}
+.signin_header {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.signin_header > h1, .signin_header > p {
+    display: flex;
+    justify-content: center;
+}
+ @media only screen and (max-width: 576px) {
+     .signin_col {
+         -ms-flex: 0 0 100%;
+         flex: 0 0 100%;
+         max-width: 100%;
+     }
+ }
+ @media only screen and (min-width: 576px) {
+     .signin_col {
+         -ms-flex: 0 0 100%;
+         flex: 0 0 100%;
+         max-width: 100%;
+     }
+ }
+ @media only screen and (min-width: 768px) {
+     .signin_col {
+         -ms-flex: 0 0 50%;
+         flex: 0 0 50%;
+         max-width: 50%;
+     }
+ }
+ @media only screen and (min-width: 992px) {
+     .signin_col {
+         -ms-flex: 0 0 50%;
+         flex: 0 0 50%;
+         max-width: 50%;
+     }
+ }
+ @media only screen and (min-width: 1200px) {
+     .signin_col {
+         -ms-flex: 0 0 50%;
+         flex: 0 0 50%;
+         max-width: 50%;
+     }
+ }
+.inputTxt:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.inputTxt input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+.inputTxt label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+.inputTxt_colInput > span {
+    color: red;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 576px) {
+    .inputTxt_colLabel, .inputTxt_colInput, .inputTxtinput[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+@media only screen and (min-width: 576px) {
+    .inputTxt_colLabel, .inputTxt_colInput, .inputTxtinput[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .inputTxt_colLabel, .inputTxt_colInput, .inputTxtinput[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .inputTxt_colLabel {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+    }
+    .inputTxt_colInput {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .inputTxt_colLabel {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+    }
+    .inputTxt_colInput {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+    }
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
+.button > button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    padding: 15px 32px;
+    margin-top: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+}
+.button > button:hover {
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.footer {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: calc((100% - 80%)/2);
+    height: 100%;
+ }
+.footer > div > div {
+    width: 80%;
+    margin-left: 10%;
+}
+.footer > div > div > ul > li {
+    margin-top: 5px;
+}
+  @media only screen and (max-width: 576px) {
+      .footer > div {
+          -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+          max-width: 50%;
+      }
+  }
+  @media only screen and (min-width: 576px) {
+      .footer > div {
+          -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+          max-width: 50%;
+      }
+  }
+  @media only screen and (min-width: 768px) {
+      .footer > div {
+          -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+          max-width: 25%;
+      }
+  }
+  @media only screen and (min-width: 992px) {
+      .footer > div {
+          -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+          max-width: 25;
+      }
+  }
+  @media only screen and (min-width: 1200px) {
+      .footer > div {
+          -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+          max-width: 25%;
+      }
+  }
+
+   .hoverLine:hover, .hoverLine > li > a:hover, .hoverLine:focus {
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 4px 0px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 4px 0px 0px rgba(0, 0, 0, 1);
+	transition: 1s;
+}
+.hoverLine__nav > li > a:hover, .hoverLine__nav > li > a:focus {
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 4px 0px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 4px 0px 0px rgba(0, 0, 0, 1);
+	transition: 1s;
+}
+
+
+
+

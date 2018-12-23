@@ -1,0 +1,67 @@
+.signin {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: 15%;
+    height: 100%;
+}
+.signin > div {
+     margin-top: 100px;
+}
+.signin_col > div {
+    width: 80%;
+    margin-left: 10%;
+}
+.signin_border {
+	-webkit-box-shadow: 3px 0px 0px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    3px 0px 0px 0px rgba(0, 0, 0, 1);
+	box-shadow:         3px 0px 0px 0px rgba(0, 0, 0, 1);
+}
+.signin_header {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.signin_header > h1, .signin_header > p {
+    display: flex;
+    justify-content: center;
+}
+ @media only screen and (max-width: {{ 'mediaSmall' }}px) {
+     .signin_col {
+         -ms-flex: 0 0 100%;
+         flex: 0 0 100%;
+         max-width: 100%;
+     }
+ }
+ @media only screen and (min-width: {{ 'mediaSmall' }}px) {
+     .signin_col {
+         -ms-flex: 0 0 100%;
+         flex: 0 0 100%;
+         max-width: 100%;
+     }
+ }
+ @media only screen and (min-width: {{ 'mediaMedium' }}px) {
+     .signin_col {
+         -ms-flex: 0 0 50%;
+         flex: 0 0 50%;
+         max-width: 50%;
+     }
+ }
+ @media only screen and (min-width: {{ 'mediaLarge' }}px) {
+     .signin_col {
+         -ms-flex: 0 0 50%;
+         flex: 0 0 50%;
+         max-width: 50%;
+     }
+ }
+ @media only screen and (min-width: {{ 'mediaExtraLarge' }}px) {
+     .signin_col {
+         -ms-flex: 0 0 50%;
+         flex: 0 0 50%;
+         max-width: 50%;
+     }
+ }
+{{ 'inputTxt_css' }}
+{{ 'button' }}

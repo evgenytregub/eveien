@@ -1,0 +1,78 @@
+.gallery {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: {{ 'rowContainer' }}%;
+    margin-left: calc((100% - {{ 'rowContainer' }}%)/2);
+    height: 100%;
+ }
+ .gallery > div, .gallery__col11, gallery__col1, .gallery__Inner > a {
+     margin-top: 100px;
+ }
+ .gallery__Inner > a {
+   display: flex;
+   flex-direction: column;
+   width: 250px;
+ }
+ .gallery__Inner {
+ 	width: 80%;
+ 	margin-left: 10%;
+ }
+.gallery__col11 {
+    display: flex;
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+}
+.gallery__col1 {
+   display: flex;
+   flex-direction: column;
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+}
+.gallery__vert {
+    margin-top: 100px;
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Safari */
+    transform: rotate(-90deg); /* Standard syntax */
+}
+ @media only screen and (max-width: {{ 'mediaSmall' }}px) {
+     .gallery__col6 {
+         -ms-flex: 0 0 100%;
+         flex: 0 0 100%;
+         max-width: 100%;
+     }
+ }
+ @media only screen and (min-width: {{ 'mediaSmall' }}px) {
+     .gallery__col6 {
+         -ms-flex: 0 0 100%;
+         flex: 0 0 100%;
+         max-width: 100%;
+     }
+ }
+ @media only screen and (min-width: {{ 'mediaMedium' }}px) {
+     .gallery__col6 {
+         -ms-flex: 0 0 50%;
+         flex: 0 0 50%;
+         max-width: 50%;
+     }
+ }
+ @media only screen and (min-width: {{ 'mediaLarge' }}px) {
+     .gallery__col6 {
+         -ms-flex: 0 0 50%;
+         flex: 0 0 50%;
+         max-width: 50%;
+     }
+ }
+ @media only screen and (min-width: {{ 'mediaExtraLarge' }}px) {
+     .gallery__col6 {
+         -ms-flex: 0 0 50%;
+         flex: 0 0 50%;
+         max-width: 50%;
+     }
+ }
+
+ {{ 'slideshow_css' }}
+ {{ 'hoverLine_css' }}

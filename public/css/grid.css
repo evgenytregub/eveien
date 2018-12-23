@@ -1,0 +1,75 @@
+/*
+========================================================
+== Reset styles
+========================================================
+*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd,
+q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt,
+dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
+thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark,
+audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html {
+    height: 100%;
+}
+body {
+    line-height: 1.2;
+    height: 100%;
+}
+ol {
+    padding-left: 1.4em;
+    list-style: none;
+}
+ul {
+    padding-left: 1.4em;
+    list-style: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 1px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+/*
+========================================================
+== z-Index
+========================================================
+*/
+.zIndex_900 { z-index: 900; } /*Header*/
+.zIndex_910 { z-index: 910; }
+.zIndex_920 { z-index: 920; }
+.zIndex_930 { z-index: 930; }
+.zIndex_940 { z-index: 900; }
+.zIndex_800 { z-index: 800; } /*Content*/
+
+.font_180, .font_160, .font_160, .font_120, .font_80, .font_60, .font_40, .font_36, .font_30, .font_24, .font_20, .font_18, .font_16, .font_14, .font_12 {
+    font-family: 'Lato', sans-serif;
+}
+.font_180 { font-size: 180px; }
+.font_160 { font-size: 160px; }
+.font_120 { font-size: 120px; }
+.font_80 { font-size: 80px; }
+.font_60 { font-size: 60px; }
+.font_40 { font-size: 40px; }
+.font_36 { font-size: 36px; }
+.font_30 { font-size: 30px; }
+.font_24 { font-size: 24px; }
+.font_20 { font-size: 20px; }
+.font_18 { font-size: 18px; }
+.font_16 { font-size: 16px; }
+.font_14 { font-size: 14px; }
+.font_12 { font-size: 12px; }

@@ -1,0 +1,62 @@
+.inputTxt:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.inputTxt input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+.inputTxt label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+.inputTxt_colInput > span {
+    color: red;
+    margin-top: 10px;
+}
+@media only screen and (max-width: {{ 'mediaSmall' }}px) {
+    .inputTxt_colLabel, .inputTxt_colInput, .inputTxtinput[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+@media only screen and (min-width: {{ 'mediaSmall' }}px) {
+    .inputTxt_colLabel, .inputTxt_colInput, .inputTxtinput[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+@media only screen and (min-width: {{ 'mediaMedium' }}px) {
+    .inputTxt_colLabel, .inputTxt_colInput, .inputTxtinput[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+@media only screen and (min-width: {{ 'mediaLarge' }}px) {
+    .inputTxt_colLabel {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+    }
+    .inputTxt_colInput {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+    }
+}
+@media only screen and (min-width: {{ 'mediaExtraLarge' }}px) {
+    .inputTxt_colLabel {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+    }
+    .inputTxt_colInput {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+    }
+}

@@ -1,0 +1,74 @@
+.slideshow {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.slideshowItem {display: none}
+.slideshowFade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes slideshowFade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes slideshowFade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.slideshowNumberText {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.slideshowText {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.slideshowPrev, .slideshowNext {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  background-color: rgba(255,255,255,1);
+}
+.slideshowPrev:hover, .slideshowNext:hover {
+  background-color: rgba(0,0,0,1);
+    color: #ffffff;
+}
+.slideshowNext {
+  left: 41px;
+}
+.slideshowDotPosition {
+  position: absolute;
+  bottom: 0px;
+  left: 29%;
+}
+.slideshowDot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.slideshowActive, .slideshowDot:hover {
+  background-color: #717171;
+}
